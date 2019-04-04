@@ -1,5 +1,10 @@
-# -------------------------------------------------------------------------- #
+#************************************************************
+# THIS IS A WIZARD-GENERATED FILE.                           
 #
+# Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+#
+#************************************************************
+
 # Copyright (C) 1991-2013 Altera Corporation
 # Your use of Altera Corporation's design tools, logic functions 
 # and other software and tools, and its AMPP partner logic 
@@ -13,18 +18,20 @@
 # programming logic devices manufactured by Altera and sold by 
 # Altera or its authorized distributors.  Please refer to the 
 # applicable agreement for further details.
-#
-# -------------------------------------------------------------------------- #
-#
-# Quartus II 64-Bit
-# Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-# Date created = 02:24:40  June 26, 2018
-#
-# -------------------------------------------------------------------------- #
 
-QUARTUS_VERSION = "13.1"
-DATE = "02:24:40  June 26, 2018"
 
-# Revisions
 
-PROJECT_REVISION = "B16_counter"
+# Clock constraints
+
+# Automatically constrain PLL and other generated clocks
+derive_pll_clocks -create_base_clocks
+
+# Automatically calculate clock uncertainty to jitter and other effects.
+derive_clock_uncertainty
+
+# tsu/th constraints
+
+# tco constraints
+
+# tpd constraints
+
